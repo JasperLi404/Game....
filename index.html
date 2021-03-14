@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/index.css">
+    <title>Game</title>
+</head>
+<body>
+    <div class="cover">
+         <div class="playerFirst player" id="first" >
+            <textarea name="textarea" id="textarea" autofocus ></textarea>
+            <div class="name">Player 1</div>
+            <span id="count" >0</span>
+            <button disabled="true" class="buttonAnswer">Answer</button>
+        </div>
+        
+        <div id="options">
+            <div class="newGame">new game</div>
+            <div class="endGame">end game</div>
+            <div class="endRound">end round</div>
+            <button class="start">start</button>
+        </div>
+
+        <div class="playerSecond player" id="second">
+            <textarea id="textarea"  autofocus ></textarea>
+            <div class="name">Player 2</div>
+
+            <span id="count" >0</span>
+            <button disabled="true" class="buttonAnswer">Answer</button>
+        </div>
+    </div>
+    <div id="timer">
+        <!-- <div class="text">Timer</div> -->
+        <div class="seconds">
+            00 : <span> 60 </span>
+        </div>
+       
+    </div>
+
+<script src="./index.js"></script>
+</body>
+</html>
